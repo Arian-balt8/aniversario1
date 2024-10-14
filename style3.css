@@ -1,0 +1,40 @@
+*{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: url(./img/vista-paisaje-espectacular-rayos-sol-brillando-traves-cielo-nublado-oscuro.jpg) no-repeat  center center fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+}
+
+p{
+    text-align: center;
+    font-family:cursive
+}
+#videos{
+    text-align: center;
+
+}
+
+button {
+    display: inline-block;
+    border:none;
+    height:50px;
+    border-radius: 30px;
+    padding: 10px 0;
+    width: 400px;
+    background-color:#00000000;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 150ms;
+    margin-top: 40px;
+}
+

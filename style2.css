@@ -1,0 +1,39 @@
+*{
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./img/weather-effects-composition.jpg) no-repeat center center fixed;
+    background-size: cover;   
+}
+#titulo{
+    font-family: cursive;
+    color: #f56b09;
+
+}
+
+
+button {
+    display: inline-block;
+    border:none;
+    height:50px;
+    border-radius: 30px;
+    padding: 10px 0;
+    width: 400px;
+    background-color:#00000000;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 150ms;
+    margin-top: 40px;
+}
+#parrafo{
+    font-family: cursive;
+    color: yellow;
+
+}
